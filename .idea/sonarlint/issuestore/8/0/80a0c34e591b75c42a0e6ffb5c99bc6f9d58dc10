@@ -1,0 +1,18 @@
+
+Ssquid:S1905¡"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Š±Åì,
+rsquid:S001151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î²Ÿ²
+–squid:S1319Ù"rThe type of the "idsList" object should be an interface such as "List" rather than the implementation "ArrayList".(˜¿î¹üÿÿÿÿ8Ÿ™²Åì,
+Msquid:S1905A"*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8Š±Åì,
+]squid:UselessImportCheck"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­8‡‘õÅì,
+esquid:MaximumInheritanceDepth."<This class has 7 parents which is greater than 5 authorized.(Â‚†¨
+csquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(”üãİ
+hsquid:HiddenFieldCheckD"ARename "imvProfilePic" which hides the field declared at line 51.(ò³°Ùúÿÿÿÿ
+Rsquid:S1905O"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Š±Åì,
+Tsquid:S1905]"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Š±Åì,
+Rsquid:S1905r"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Š±Åì,
+Ssquid:S1481f"7Remove this unused "imvOnlineOrOffline" local variable.(¹àû´ùÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ
+Osquid:S1481ˆ"0Remove this unused "cimvProfile" local variable.(õÈÄ¤8³á¯Æì,
+Zsquid:UselessImportCheck"1Remove this unused import 'butterknife.BindView'.(§”¿Æúÿÿÿÿ
+nsquid:S00117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³‚Î¢ÿÿÿÿÿ
+]squid:UselessImportCheck"4Remove this unused import 'butterknife.ButterKnife'.(Ùî²™şÿÿÿÿ

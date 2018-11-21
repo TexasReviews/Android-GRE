@@ -1,0 +1,209 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Gre</string>
+    //login
+    <string name="version_name">GT SOFTPREP V1.0</string>
+    <string name="student_login">Student Login</string>
+    <string name="login">Login</string>
+    <string name="please_enter_email">Please Enter E-mail</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="str_valid_msg">Please all the mandatory fields</string>
+    <string name="please_wait_loading">please wait loading...</string>
+    <string name="online">online</string>
+
+
+    //navigation drawer
+    <string name="dashboard">Dashboard</string>
+    <string name="videos">Videos</string>
+    <string name="practice_test">Practice Test</string>
+    <string name="full_length_test">Full Length Test</string>
+    <string name="feed_back_form">Feed Back Form</string>
+
+    <string name="title_activity_navigation_drawer">GTSOFTPREP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">online</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    //dashboard
+    <string name="Math">Math</string>
+    <string name="QUESTIONS_UNLOCKED">QUESTIONS UNLOCKED</string>
+    <string name="Questions_Correct">Questions\nCorrect</string>
+    <string name="Questions_practiced">Questions\nPracticed</string>
+    <string name="Avg_Time_Per_Question">Avg Time\nPer Question</string>
+    <string name="Grescore">Grescore</string>
+    <string name="Awa_section_test_wise_performance">Awa section, test wise performance</string>
+    <string name="Test_name">Test name</string>
+    <string name="Verbal">Verbal</string>
+    <string name="Quant">Quant</string>
+    <string name="Total">Total</string>
+    <string name="Status">Status</string>
+    <string name="Score">Score</string>
+    <string name="Action">Action</string>
+    <string name="Full_length_test_wise_performance">Full length test wise performance</string>
+    <string name="Gre_performance">Gre performance</string>
+    <string name="View"></string>
+
+
+    //videos fragment
+    <string name="Online_VideoLessons">Online VideoLessons</string>
+    <string name="Online_SubLesson">Online SubLesson</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //youtube
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="Create_New_Question">Create New Question</string>
+    <string name="Question_Answers">Question/Answers</string>
+    <string name="Total_Questions">Total Questions:</string>
+    <string name="Question">Question</string>
+    <string name="Post">Post</string>
+    <string name="cancel">Cancel</string>
+    <string name="Enter_Your_Answer">Enter Your Answer</string>
+    <string name="by">By</string>
+
+    //change password fragment
+    <string name="Current_Password">Current Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Change_Password">Chan Password</string>
+
+    //profile
+    <string name="id">ID:</string>
+    <string name="Name">Name:</string>
+    <string name="E_mail">E-mail:</string>
+    <string name="Mobile">Mobile:</string>
+    <string name="Branch">Branch:</string>
+    <string name="Nationality">Nationality:</string>
+    <string name="User_Profile">User Profile</string>
+    <string name="Profile">Profile</string>
+    <string name="Logout">Logout</string>
+
+    <string name="change_profile_image">change profile image</string>
+    <string name="click_here_to_change_profile_image">click here to change profile image
+</string>
+
+
+    //math
+    <string name="Customize_Test">Customize Test</string>
+    <string name="Select_Question_Type">Select Question Type</string>
+    <string name="Select_Lessons">Select Lessons</string>
+    <string name="Quantitative_Comparision"> Quantitative Comparision</string>
+    <string name="Data_Interpretation">Data Interpretation</string>
+    <string name="Problem_Solving">Problem Solving</string>
+    <string name="Single_Answer">Single Answer</string>
+    <string name="Multiple_Answer">Multiple Answer</string>
+    <string name="Numeric_Entry">Numeric Entry</string>
+
+
+    <string name="Number_Systems">Number Systems</string>
+    <string name="Integer_Properties">Integer Properties</string>
+    <string name="Percentages">Percentages</string>
+    <string name="Ratios_and_fractions">Ratios and fractions</string>
+    <string name="Algebra">Algebra</string>Algebra
+    <string name="Word_problems">Word_problems</string>
+    <string name="Angles_and_triangles">Angles and triangles</string>
+    <string name="Quadrilaterals_and_circles">Quadrilaterals and circles</string>
+    <string name="D_Geometry">3D_Geometry</string>
+    <string name="Coordinate_geometry">Coordinate geometry</string>
+    <string name="Statistics">Statistics</string>
+    <string name="Permutations_and_combinations">Permutations and combinations</string>
+    <string name="Probability">Probability</string>
+
+    //verbal
+    <string name="Text_Completion">Text Completion</string>
+    <string name="Single_Blank">Single Blank</string>
+    <string name="Double_Blank">Double Blank</string>
+    <string name="Triple_Blank">Triple Blank</string>
+    <string name="Sentence_Equivalence">Sentence Equivalence</string>
+    <string name="Reading_Comprehension"> Reading Comprehension</string>
+    <string name="Short">Short</string>
+    <string name="Long">Long</string>
+    <string name="Critical_Reasoning">Critical Reasoning</string>
+
+
+    <string name="Enter_Test_Name">Enter Test Name</string>
+    <string name="Start_practice">Start Practice</string>
+
+
+    //Questions
+    <string name="submit">submit</string>
+    <string name="video_exam">video Exam</string>
+
+
+    //answers
+    <string name="qadiscussion">Q/A Discussion</string>
+    <string name="Create_Answer">Create Answer</string>
+
+
+    //create qus/ans popup
+    <string name="Create_New_Answer">Create New Answer</string>
+    <string name="Answer">Answer</string>
+    <string name="Enter_your_ans">Enter Your Answer</string>
+    <string name="Enter_your_qus">Enter Your Question</string>
+    <string name="thumbnail_image_view_desc">thumbnail_image_view_desc</string>
+
+    //feed back form
+    <string name="LetsTalk">Let\'s Talk</string>
+    <string name="Phone">Ph:+91 91004 44920</string>
+    <string name="Email_Us">Email Us</string>
+    <string name="infotexasreviewin">info@texasreview.in</string>
+    <string name="We_would_like">We would like to feedback to improve our exam portal.</string>
+    <string name="What_is_opinion_of_this_portal">What is opinion of this portal ?.</string>
+    <string name="Unsatisfied">Unsatisfied</string>
+    <string name="Average">Average</string>
+    <string name="Satisfied">Satisfied</string>
+    <string name="Please_select_your_feedback_category_below">Please select your feedback category below</string>
+    <string name="Suggetions">Suggetions</string>
+    <string name="Compliments">Compliments</string>
+    <string name="Somethig_is_not_quit_rignt">Somethig is not quite rignt</string>
+    <string name="leave_Your_comments_here">Leave_Your_comment here.....</string>
+    <string name="send">Send</string>
+    <string name="characters_remaing">225 characters remaing</string>
+    <string name="successful">successful</string>
+    <string name="thankyouforgivenfeedback">Thank you for given feedback</string>
+    <string name="Cancel">Cancel</string>
+
+
+    //practice Questions
+    <string name="Your_already_visited_this_Question">Your already visited this Question</string>
+    <string name="Previous">Previous</string>
+    <string name="Correct_Answer">Correct Answer</string>
+    <string name="Next">Next</string>
+    <string name="Get_solution">Get Solution</string>
+    <string name="solution">Solution</string>
+
+    //review
+    <string name="Your_Percent_Correct">Your Percent Correct</string>
+    <string name="Your_Average_Pace">Your Average Pace</string>
+    <string name="Others_Average_Pace">Others\' Average Pace</string>
+    <string name="Category">Category</string>
+    <string name="WrongAnswers">Wrong Answers</string>
+    <string name="CorrectAnswers">Correct Answers</string>
+    <string name="TotalQuestions">Total Ques</string>
+    <string name="TotalTime">Total Time</string>
+    <string name="review">Review</string>
+
+
+    <string-array name="subcatnames">
+        <item>Number Systems </item>
+        <item>Integer Properties </item>
+        <item>Percentages </item>
+        <item>Ratios and fractions </item>
+        <item>Algebra </item>
+        <item>Word problems  </item>
+        <item>Angles and triangles  </item>
+        <item>Quadrilaterals and circles </item>
+        <item>3D Geometry  </item>
+        <item>Coordinate geometry</item>
+        <item>Statistics </item>
+        <item>Data Interpretation</item>
+        <item>Permutations and combinations</item>
+        <item>Probability </item>
+
+    </string-array>
+
+</resources>

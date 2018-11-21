@@ -1,0 +1,5 @@
+
+isquid:S3027”"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(ØÚêŞ8õ³‚ñ,
+–squid:S1319("zThe type of the "subcatBeansList" object should be an interface such as "List" rather than the implementation "ArrayList".(ğıŸıÿÿÿÿ
+Lsquid:S1125g")Remove the literal "false" boolean value.(Ášğûÿÿÿÿ8âáİ¥ê,
+Fsquid:S1148q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8è“Ú¥ê,

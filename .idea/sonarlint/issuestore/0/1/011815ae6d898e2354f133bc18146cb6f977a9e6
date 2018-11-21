@@ -1,0 +1,5 @@
+
+squid:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(ğèÇ8ƒ›Š¶ñ,
+csquid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ8®Ó¶ñ,
+wsquid:UselessImportCheck"GRemove this unused import 'in.texasreview.gre.Models.ReviewTableModel'.(ˆ„Ÿúÿÿÿÿ8‰Ş¶ñ,
+hsquid:UselessImportCheck	"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8´¦¶ñ,

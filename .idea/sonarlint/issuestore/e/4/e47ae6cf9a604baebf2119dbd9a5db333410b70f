@@ -1,0 +1,8 @@
+
+bsquid:UselessImportCheck"2Remove this unused import 'android.view.KeyEvent'.(ôÊÃ–úÿÿÿÿ8ŸĞıé,
+ squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¸€ıé,
+nsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(óÖÉÍÿÿÿÿÿ8¸€ıé,
+¥squid:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¸€ıé,
+Zsquid:UselessImportCheck"/Remove this unused import 'android.os.Handler'.(ûÛ’¡8¶½¬üé,
+osquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(¾²£•øÿÿÿÿ8Ñ¨¼ê,
+esquid:UselessImportCheck"5Remove this unused import 'android.view.MotionEvent'.(˜šËŞúÿÿÿÿ8‰Ò÷ıé,

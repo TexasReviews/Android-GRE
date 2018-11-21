@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlacktransprant">#90000000</color>
+    <color name="colorLogin">#dddce280</color>
+    <color name="colorDashboardBackground">#ecf0f5</color>
+    <color name="colorMath1">#029bbf</color>
+    <color name="colorMath2">#02c0ef</color>
+    <color name="colorMath2Back">#91d3e2</color>
+    <color name="colorVerbal1">#c27e10</color>
+    <color name="colorVerbal2">#f39d14</color>
+    <color name="colorCardBackground">#f1f3f4</color>
+    <color name="colorTable1">#fdeded</color>
+    <color name="colorTable2">#d4f0e3</color>
+    <color name="colorRed">#ef0a0a</color>
+    <color name="colorVideosCaed">#f3f3f3</color>
+    <color name="colorCreateNewQuestionButton">#02a75b</color>
+    <color name="colorfeedbackbtnbg">#3d8ebc</color>
+    <color name="colorlightGreen">#9983CC39</color>
+    <color name="reviewCard1">#24568b</color>
+    <color name="reviewCard2">#9a51bb</color>
+    <color name="reviewCard3">#d11d55</color>
+</resources>

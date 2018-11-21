@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".fragments.Dashboard">
+
+            //math card view
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Math"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="17sp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imvMath"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:background="@color/colorMath1"
+                            android:padding="10dp"
+                            android:src="@drawable/calculator" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/colorMath2">
+
+                            <TextView
+                                android:id="@+id/QUESTIONS_UNLOCKED"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="@string/QUESTIONS_UNLOCKED"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <ProgressBar
+                                android:id="@+id/pbMath"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:max="100"
+                                android:progressDrawable="@drawable/progress_drawable" />
+
+                            <TextView
+                                android:id="@+id/tvmQusUnlock"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/pbMath"
+                                android:layout_marginStart="5dp"
+                                android:text="0%"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorBlack"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Questions_Correct"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvmQuestions_Correct"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Questions_practiced"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvmQuestions_practiced"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Avg_Time_Per_Question"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvmAvgTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            //verbal card view
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Verbal"
+                        android:textSize="17sp"
+                        android:textColor="@color/colorBlack" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imvVerbal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:background="@color/colorVerbal1"
+                            android:padding="10dp"
+                            android:src="@drawable/edit" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/colorVerbal2">
+
+                            <TextView
+                                android:id="@+id/QUESTIONS_UNLOCKED2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="@string/QUESTIONS_UNLOCKED"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <ProgressBar
+                                android:id="@+id/pbVerbal"
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:max="100"
+                                android:progressDrawable="@drawable/progress_drawable" />
+
+                            <TextView
+                                android:id="@+id/tvvQusUnlock"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/pbVerbal"
+                                android:layout_marginStart="5dp"
+                                android:text="0%"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorBlack"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Questions_Correct"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvQuestions_Correct"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Questions_practiced"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvQuestions_practiced"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Avg_Time_Per_Question"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvvAvgTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="15sp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        //greScore card table card
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/Grescore"
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:singleLine="true" />
+
+            <View
+                android:layout_height="1dp"
+                android:background="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp" />
+
+
+            <TableLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:paddingRight="10dp"
+                android:divider="@null"
+                android:id="@+id/tlGreScore"
+                android:paddingLeft="10dp">
+
+                <TableRow
+                    android:padding="5dp"
+                    android:background="#0079D6">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Test_name" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Verbal" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Quant" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Total" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        //awa session card table card
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/Awa_section_test_wise_performance"
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:singleLine="true" />
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/colorBlack"
+                android:layout_margin="10dp" />
+
+
+            <TableLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:paddingRight="10dp"
+                android:divider="@null"
+                android:id="@+id/tlAwaSession"
+                android:paddingLeft="10dp">
+
+                <TableRow
+                    android:padding="5dp"
+                    android:background="#0079D6">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Test_name" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Status" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/Score" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_margin="10dp"
+            android:background="@color/colorCardBackground"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/Gre_performance"/>
+
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_margin="10dp"
+            android:background="@color/colorCardBackground"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:text="@string/Full_length_test_wise_performance"/>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/linechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

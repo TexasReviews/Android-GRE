@@ -1,0 +1,29 @@
+
+~squid:S00115>"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š Ûùÿÿÿÿ8¯Üçƒë,
+_squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8®îéè,
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(à×ö¨ıÿÿÿÿ8®îéè,
+~squid:S00115E"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È‘Şóøÿÿÿÿ8¾óÍ®ñ,
+gsquid:UselessImportCheck"7Remove this unused import 'android.widget.ProgressBar'.(³ñÿŸùÿÿÿÿ8®îéè,
+^squid:UselessImportCheck".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8®îéè,
+csquid:UselessImportCheck"8Remove this unused import 'android.view.LayoutInflater'.(À¯ÑÇ8®îéè,
+xsquid:S001152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ğå8ìÇ¢Ôé,
+~squid:S001154"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„Ä¸ºúÿÿÿÿ8ò–¸Şé,
+isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(•Öğß8”À‡ê,
+ysquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÖÌëÑ8®îéè,
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î¦Ä˜ùÿÿÿÿ8®îéè,
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æ»·¼ÿÿÿÿÿ8®îéè,
+ysquid:S00115:"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œë´ˆ8ôÃ‘²ê,
+ysquid:S00115*"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğ†ö†8”À‡ê,
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞõÕÍ8®îéè,
+nsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(Øéóúÿÿÿÿ8¡Á¸Şé,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Œµ€—ÿÿÿÿÿ8®îéè,
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢”Ù¼ûÿÿÿÿ8®îéè,
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ö•ÑÓ8®îéè,
+Xsquid:S1118
+":Add a private constructor to hide the implicit public one.(³ıƒ8®îéè,
+ysquid:S001151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦Æ¿¶8®îéè,
+nsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(•ô•üıÿÿÿÿ8®îéè,
+~squid:S00115A"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ô½œúÿÿÿÿ8²”Î’î,
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Úà„°8®îéè,
+\squid:UselessImportCheck"1Remove this unused import 'in.texasreview.gre.R'.(–Ëª‹8®îéè,
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Æá«‚ÿÿÿÿÿ8®îéè,

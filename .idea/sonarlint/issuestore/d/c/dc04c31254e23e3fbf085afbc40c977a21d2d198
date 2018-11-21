@@ -1,0 +1,7 @@
+
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8«€²Şğ,
+hsquid:HiddenFieldCheck¸"9Rename "email" which hides the field declared at line 50.(°œºøÿÿÿÿ8ÑÕºî,
+vsquid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş“Ì–úÿÿÿÿ8ÑÕºî,
+jsquid:MaximumInheritanceDepth""<This class has 7 parents which is greater than 5 authorized.(§ÿ—Ôüÿÿÿÿ
+esquid:UselessImportCheck":Remove this unused import 'android.content.ComponentName'.(½‹æŠ8êìÍÿê,
+ksquid:HiddenFieldCheck¹"<Rename "password" which hides the field declared at line 51.(Äæ‚úÿÿÿÿ8ÑÕºî,

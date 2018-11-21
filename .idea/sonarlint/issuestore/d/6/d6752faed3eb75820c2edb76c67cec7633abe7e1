@@ -1,0 +1,8 @@
+
+ˆsquid:S1192™"iDefine a constant instead of duplicating this literal "Something went wrong...Please try later!" 3 times.(ó‡»³8İ·ıÑé,
+Hsquid:S1068>"+Remove this unused "YPlayer" private field.(åÄÜq8İ·ıÑé,
+isquid:S3027Â"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(ØÚêŞ8İ·ıÑé,
+psquid:S00116>"RRename this field "YPlayer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÄÜq8İ·ıÑé,
+qsquid:HiddenFieldCheckè"BRename "sessionManager" which hides the field declared at line 86.(åùÖûÿÿÿÿ8İ·ıÑé,
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¢£´8İ·ıÑé,
+Psquid:S1153©"1Directly append the argument of String.valueOf().(·Š—8İ·ıÑé,

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:id="@+id/imvBack"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="2dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/video_exam"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:id="@+id/btnSubmit"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorCreateNewQuestionButton"
+            android:layout_centerVertical="true"
+            android:text="@string/submit"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvVideoExamAdapterCount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Questions 10 of 50"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpVideoExamQus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVideoAdapterCount"
+        android:layout_above="@+id/tvVideoName">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvNumOfQus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="2dp"
+            android:text="Qus 0 of 0"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rlTime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/rlTop"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTotalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Total Time 00:00:00"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvQusTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Qus time 00:00:00"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSolution"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rlTime">
+
+        <TextView
+            android:id="@+id/tvQusAllReadyVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/Your_already_visited_this_Question"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/_10sdp" />
+
+
+        <Button
+            android:id="@+id/btnGetSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorMath2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/Get_solution" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"></View>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlBottom"
+        android:layout_below="@+id/rlSolution">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvQus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Qustion"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imvQus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/launcher"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOptionsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:saveEnabled="false">
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCardBackground"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHeaderSolution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/solution"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSolution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/solution"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/llDemo"
+                android:background="@color/colorCardBackground"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"></View>
+
+        <TextView
+            android:id="@+id/tvCorrectOrWrongAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/correct"
+            android:gravity="center"
+            android:text="@string/Correct_Answer"
+            android:textColor="@color/colorCreateNewQuestionButton"
+            android:textSize="@dimen/_10sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="@string/Previous" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@color/colorCreateNewQuestionButton"
+                android:gravity="center"
+                android:text="@string/Next" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCreateNewQuestionButton"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

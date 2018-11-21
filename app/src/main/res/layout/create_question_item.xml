@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imvComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/comments" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvQuestion"
+                android:layout_toRightOf="@+id/imvComment"
+                android:text="@string/Question" />
+
+            <TextView
+                android:id="@+id/tvNumOfAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imvComment"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorMath2"
+                android:text="1 answer" />
+
+            <ImageView
+                android:id="@+id/imvLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imvComment"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvNumOfAns"
+                android:src="@drawable/like" />
+
+            <TextView
+                android:id="@+id/tvNumOfLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imvComment"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imvLike"
+                android:text="1" />
+
+            <ImageView
+                android:id="@+id/imvDisLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imvComment"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tvNumOfLikes"
+                android:src="@drawable/dislike" />
+
+            <TextView
+                android:id="@+id/tvNumOfDisLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imvComment"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imvDisLike"
+                android:text="1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tvBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/by"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvBy"
+                android:text=""
+                android:textColor="@color/colorCreateNewQuestionButton" />
+
+            <ImageView
+                android:id="@+id/imvFrontArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvMailid"
+                android:src="@drawable/front_arrow_green" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBy"
+                android:layout_marginEnd="10dp"
+                android:text="time" />
+
+            <ImageView
+                android:id="@+id/imvProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBy"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:layout_toRightOf="@id/tvTime"
+                android:src="@drawable/dislike" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

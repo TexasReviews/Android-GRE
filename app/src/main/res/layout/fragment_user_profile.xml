@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorCardBackground"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="@string/User_Profile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorRed"></View>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/profile"
+                android:layout_marginBottom="20dp"
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorMath2"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/click_here_to_change_profile_image"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/id"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tvId"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvName"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/E_mail"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMailId"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Mobile"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMobileNum"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Branch"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBranch"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Nationality"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNationality"
+                android:text="india"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="center|center_vertical"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack">
+
+        </View>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

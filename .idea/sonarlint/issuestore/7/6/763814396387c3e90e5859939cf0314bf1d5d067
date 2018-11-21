@@ -1,0 +1,9 @@
+
+Xsquid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è
+ssquid:UselessImportCheck
+"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ
+Usquid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿ
+?squid:S1185<"(Remove this method to simply inherit it.(ßìê¯
+hsquid:UselessImportCheck"DRemove this unused import 'in.texasreview.gre.Models.LoginResModel'.(Œã‹û
+Dsquid:S1185R"(Remove this method to simply inherit it.(Ç™²“øÿÿÿÿ
+bsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(€Üçµ

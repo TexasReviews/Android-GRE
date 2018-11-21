@@ -1,0 +1,34 @@
+
+Esquid:S1168Ü"&Return an empty array instead of null.(¥¹ï8“»íÓò,
+~squid:UselessImportCheck>"NRemove this unused import 'in.texasreview.gre.interfaces.LikeOrUnlikeOnclick'.(ÔŞ“ÿÿÿÿÿ8äºñ±ñ,
+€squid:S00116y"aRename this field "tvvQuestions_practiced" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à±èÁ8ä ª±ñ,
+nsquid:S00100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¥³¸8°Æ’áò,
+lsquid:UselessImportCheck8"BRemove this unused import 'in.texasreview.gre.Models.UserDetails'.(İ”Ûd8Œ•—°ñ,
+xsquid:S00116…"SRename this field "BARENTRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çñİ™úÿÿÿÿ8É§ÎÛò,
+Gsquid:S1148Ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×êÓò,
+psquid:UselessImportCheck"ERemove this unused import 'android.support.v4.content.ContextCompat'.(¹†Ç8âöéŞò,
+usquid:S00116‡"URename this field "Bardataset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûï¢Š8É§ÎÛò,
+zsquid:UselessImportCheck	"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ8Ò€—Úñ,
+ysquid:S00116†"YRename this field "BarEntryLabels" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šİ£Ú8É§ÎÛò,
+\squid:S1197ó"8Move the array designator from the variable to the type.(‡¤•¬øÿÿÿÿ8°Æ’áò,
+\squid:S1197È"8Move the array designator from the variable to the type.(ó€›¡ûÿÿÿÿ8°Æ’áò,
+ssquid:UselessImportCheck;"HRemove this unused import 'in.texasreview.gre.adapters.GreScoreAdapter'.(õŞÄ¨8Ò€—Úñ,
+wsquid:S00116ˆ"RRename this field "BARDATA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¨Îöüÿÿÿÿ8É§ÎÛò,
+usquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.DefaultItemAnimator'.(ÿ”ÓÑ8Ò€—Úñ,
+ƒsquid:S00116v"_Rename this field "tvvQuestions_Correct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÒã•ûÿÿÿÿ8ä ª±ñ,
+[squid:UselessImportCheck0"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÇµÚàò,
+…squid:UselessImportCheck""ZRemove this unused import 'com.github.mikephil.charting.interfaces.datasets.ILineDataSet'.(ôñÚĞ8ÇµÚàò,
+asquid:UselessImportCheck%"6Remove this unused import 'com.google.gson.JsonArray'.(ÎöêŠ8‚ó·ñ,
+usquid:UselessImportCheck<"ERemove this unused import 'in.texasreview.gre.adapters.TableAdapter'.(Œ¤Ó­øÿÿÿÿ8Òª¶ñ,
+xsquid:S2293³"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ãú8°Æ’áò,
+squid:S00116m"aRename this field "tvmQuestions_practiced" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ› =8¢Ö±ñ,
+psquid:UselessImportCheck:"@Remove this unused import 'in.texasreview.gre.activities.Login'.(Ö´Ùªıÿÿÿÿ8Œ•—°ñ,
+osquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(ßÑñ’úÿÿÿÿ8Íø£áò,
+nsquid:UselessImportCheck
+"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(ÊŠáó8à¡–Úñ,
+ƒsquid:S00116j"_Rename this field "tvmQuestions_Correct" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¥Òüÿÿÿÿ8‹û›±ñ,
+}squid:S2293ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÁˆœşÿÿÿÿ8°Æ’áò,
+bsquid:UselessImportCheck&"7Remove this unused import 'com.google.gson.JsonObject'.(µÊ´½8‚ó·ñ,
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8Ÿ—¸Ùò,
+\squid:UselessImportCheck$"1Remove this unused import 'com.google.gson.Gson'.(–§8øˆ‡Ôò,
+wsquid:UselessImportCheck7"GRemove this unused import 'in.texasreview.gre.Models.ReviewTableModel'.(ˆ„Ÿúÿÿÿÿ8÷é«¸ñ,

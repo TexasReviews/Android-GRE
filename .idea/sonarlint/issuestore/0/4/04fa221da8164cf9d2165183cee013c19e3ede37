@@ -1,0 +1,8 @@
+
+“"squid:ClassVariableVisibilityCheck‘"]Make ansLikeComparator a static final constant or non-public and provide accessors if needed.(âğÚ8úÑ­Îê,
+Šsquid:S1319^"nThe type of the "ans" object should be an interface such as "List" rather than the implementation "ArrayList".(±®û—øÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡¨ø
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+‡squid:S1319Z"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ØäÁ
+Vsquid:S1444‘"7Make this "public static ansLikeComparator" field final(âğÚ8úÑ­Îê,
+csquid:S3358•"DExtract this nested ternary operation into an independent statement.(ºúÅ8úÑ­Îê,

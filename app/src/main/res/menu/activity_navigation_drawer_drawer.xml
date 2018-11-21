@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/home"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_Videos"
+            android:icon="@drawable/videos"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/nav_PracticeTest"
+            android:icon="@drawable/megaphone"
+            android:title="@string/practice_test" />
+ <!--       <item
+            android:id="@+id/nav_FullLengthTest"
+            android:icon="@drawable/edit"
+            android:title="@string/full_length_test" />-->
+        <item
+            android:id="@+id/nav_FeedBackForm"
+            android:icon="@drawable/feedback"
+            android:title="@string/feed_back_form"/>
+    </group>
+
+
+</menu>

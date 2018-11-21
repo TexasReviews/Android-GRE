@@ -1,0 +1,46 @@
+
+}squid:S2293°"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½¨Üşÿÿÿÿ8Áº±’ñ,
+squid:S00116ƒ"\Rename this field "llText_Completion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›µñ«üÿÿÿÿ8¼‘ëì,
+qsquid:S3776ÿ"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(‡å·©8Áº±’ñ,
+Ssquid:S1066Š"/Merge this if statement with the enclosing one.(ÑÒïƒıÿÿÿÿ8Áº±’ñ,
+vsquid:S3776º"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(ô‚üÀÿÿÿÿÿ8Áº±’ñ,
+msquid:S1192´"IDefine a constant instead of duplicating this literal "totalids" 3 times.(˜Ø÷Ùøÿÿÿÿ8Áº±’ñ,
+ssquid:S00100×"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Âê”ûÿÿÿÿ8Áº±’ñ,
+lsquid:S1192µ"MDefine a constant instead of duplicating this literal "totalidssize" 3 times.(”ô”Ö8Áº±’ñ,
+xsquid:S1192¶"YDefine a constant instead of duplicating this literal "Your test will contains " 3 times.(ÏŸâØ8Áº±’ñ,
+‰squid:S00116M"eRename this field "cbQuantitative_Comparision" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‹¨èøÿÿÿÿ8¼‘ëì,
+psquid:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¤¦ğl8Áº±’ñ,
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8¼‘ëì,
+ysquid:S00116Œ"YRename this field "cbSingle_Blank" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“‘Ø˜8¼‘ëì,
+jsquid:S1192¶"KDefine a constant instead of duplicating this literal " qusetions" 3 times.(ÏŸâØ8Áº±’ñ,
+~squid:S00116"YRename this field "cbDouble_Blank" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“œÄåúÿÿÿÿ8¼‘ëì,
+ysquid:S00116\"ZRename this field "cbNumeric_Entry" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¨©ˆ8¼‘ëì,
+‚squid:S00116˜"bRename this field "cbReading_Comprehension" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¾8¼‘ëì,
+psquid:UselessImportCheck%"@Remove this unused import 'in.texasreview.gre.activities.Login'.(Ö´Ùªıÿÿÿÿ8¼‘ëì,
+squid:S00116•"aRename this field "cbSentence_Equivalence" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ©÷8¼‘ëì,
+xsquid:S00116’"YRename this field "cbTriple_Blank" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€–Ò8¼‘ëì,
+Nsquid:S1066‚"/Merge this if statement with the enclosing one.(Ó¥î×8Áº±’ñ,
+vsquid:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(æ‰úŠøÿÿÿÿ8Áº±’ñ,
+ksquid:S1192Õ"GDefine a constant instead of duplicating this literal "367415" 6 times.(ì‘õ—ıÿÿÿÿ8Áº±’ñ,
+|squid:S00116‰"\Rename this field "cbText_Completion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘—Ü§8¼‘ëì,
+vsquid:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(îÂ‚åıÿÿÿÿ8Áº±’ñ,
+„squid:S00116P"`Rename this field "cbData_Interpretation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èëŞÿÿÿÿÿ8¼‘ëì,
+ysquid:S00116V"ZRename this field "cbSingle_Answer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÇüÃ8¼‘ëì,
+]squid:UnusedPrivateMethodü"+Remove this unused private "getIds" method.(æ‰úŠøÿÿÿÿ8Áº±’ñ,
+Vsquid:UselessImportCheck)"+Remove this unused import 'io.realm.Realm'.(½¨ÀÜ8ñ‹Î£ì,
+{squid:S00116Y"\Rename this field "cbMultiple_Answer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡è©8¼‘ëì,
+„squid:S00116¡"_Rename this field "cbCritical_Reasoning" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÔŠ®ûÿÿÿÿ8¼‘ëì,
+dsquid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8¼‘ëì,
+}squid:S2293Ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½¨Üşÿÿÿÿ8Áº±’ñ,
+}squid:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½¨Üşÿÿÿÿ8Áº±’ñ,
+]squid:S1155">Use isEmpty() to check whether the collection is empty or not.(’½é·8Áº±’ñ,
+]squid:S1155í">Use isEmpty() to check whether the collection is empty or not.(µı„8Áº±’ñ,
+}squid:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ½¨Üşÿÿÿÿ8Áº±’ñ,
+Rsquid:S1172ü".Remove this unused method parameter "lession".(æ‰úŠøÿÿÿÿ8Áº±’ñ,
+Lsquid:S1172–".Remove this unused method parameter "lession".(ô¬8Áº±’ñ,
+[squid:UselessImportCheck*"0Remove this unused import 'io.realm.RealmModel'.(Öë‰Œ8ø­Ï£ì,
+bsquid:S1155¼">Use isEmpty() to check whether the collection is empty or not.(“İ¡ıÿÿÿÿ8Áº±’ñ,
+bsquid:UselessImportCheck"7Remove this unused import 'android.view.WindowManager'.(Ü³‹Å8¡äğì,
+esquid:S1192ä"FDefine a constant instead of duplicating this literal "Maths" 6 times.(ÑĞ„Ø8Áº±’ñ,
+‚squid:S00116†"bRename this field "llReading_Comprehension" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ƒÈ–8¼‘ëì,
+ squid:S1186í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÜ›Ø8Áº±’ñ,

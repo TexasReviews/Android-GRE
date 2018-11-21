@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rl_quit_learning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_marginTop="19dp"
+        android:padding="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorCardBackground"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/tvCong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/successful"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvClicked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCong"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/thankyouforgivenfeedback"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvClicked"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingRight="2dp"
+                        android:text="@string/Cancel"
+                        android:textColor="#FF46B4C8"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDashBoard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="2dp"
+                        android:text="@string/dashboard"
+                        android:textColor="#FFF26945"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imvSuccessful"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/success" />
+
+    </LinearLayout>
+</RelativeLayout>

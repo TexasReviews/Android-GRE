@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:id="@+id/cimvProfile"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tvName"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="name "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tvmailid"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="mail-id"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorWhite">
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorVerbal2"
+        android:id="@+id/btnProfile"
+        android:text="@string/Profile"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorRed"
+            android:id="@+id/btnLogout"
+            android:text="@string/Logout"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

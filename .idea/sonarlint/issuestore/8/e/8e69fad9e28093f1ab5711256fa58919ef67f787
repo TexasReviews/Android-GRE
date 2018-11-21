@@ -1,0 +1,38 @@
+
+lsquid:UselessImportCheck"<Remove this unused import 'android.annotation.SuppressLint'.(ÕƒóÏûÿÿÿÿ8öµôäð,
+nsquid:CallToDeprecatedMethod]"@Remove this use of "setOnTabSelectedListener"; it is deprecated.(°ü€:8ÈÕ³ð,
+_squid:UselessImportCheck"4Remove this unused import 'android.widget.TableRow'.(†¶‹É8¥®•ï,
+¤squid:S1186v"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ð¸™áúÿÿÿÿ8éõÇŒñ,
+}squid:UselessImportCheck("MRemove this unused import 'com.github.mikephil.charting.utils.ColorTemplate'.(”õŸŒúÿÿÿÿ8¡‡Þ½ï,
+]squid:UselessImportCheck	"2Remove this unused import 'android.graphics.Rect'.(¤Úï¬8¶µ´ï,
+dsquid:UselessImportCheck"4Remove this unused import 'android.graphics.Canvas'.(õž«•üÿÿÿÿ8¶µ´ï,
+ysquid:UselessImportCheck"IRemove this unused import 'com.github.mikephil.charting.charts.BarChart'.(¯›ÚÁýÿÿÿÿ8²ºÞ³ð,
+gsquid:UselessImportCheck"7Remove this unused import 'android.widget.TableLayout'.(Ý´‘úÿÿÿÿÿ8ÁÎ°•ï,
+ysquid:UselessImportCheck$"IRemove this unused import 'com.github.mikephil.charting.data.BarDataSet'.(‚œõõøÿÿÿÿ8ˆÆæ³ð,
+rsquid:UselessImportCheck%"GRemove this unused import 'com.github.mikephil.charting.data.BarEntry'.(†Õ¨Ë8ˆÆæ³ð,
+asquid:UselessImportCheck"1Remove this unused import 'android.view.Gravity'.(ÎÎÎýÿÿÿÿ8¥®•ï,
+usquid:UselessImportCheck0"ERemove this unused import 'in.texasreview.gre.adapters.TableAdapter'.(Œ¤Ó­øÿÿÿÿ8®‰ë³ð,
+csquid:UselessImportCheck"3Remove this unused import 'android.graphics.Paint'.(êý‚•ÿÿÿÿÿ8¶µ´ï,
+zsquid:UselessImportCheck""JRemove this unused import 'com.github.mikephil.charting.components.YAxis'.(Œç®Ñÿÿÿÿÿ8ˆÆæ³ð,
+zsquid:UselessImportCheck!"JRemove this unused import 'com.github.mikephil.charting.components.XAxis'.(íóÀœøÿÿÿÿ8ˆÆæ³ð,
+‡squid:UselessImportCheck&"WRemove this unused import 'com.github.mikephil.charting.formatter.IAxisValueFormatter'.(‡¸ß¼ýÿÿÿÿ8ˆÆæ³ð,
+Lsquid:S1185†"(Remove this method to simply inherit it.(Ç™²“øÿÿÿÿ8ùÅÓ³ð,
+„squid:UselessImportCheck'"YRemove this unused import 'com.github.mikephil.charting.interfaces.datasets.IBarDataSet'.(ÔÝ²8†õï¸ï,
+Gsquid:S1185€"(Remove this method to simply inherit it.(ˆÏ€¶8ùÅÓ³ð,
+\squid:UselessImportCheck
+",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿ8³ñíÀî,
+zsquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.LinearLayoutManager'.(í™½Úúÿÿÿÿ8®‰ë³ð,
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8¸÷¹ï,
+usquid:UselessImportCheck"JRemove this unused import 'android.support.v7.widget.DefaultItemAnimator'.(ÿ”ÓÑ8®‰ë³ð,
+nsquid:UselessImportCheck"CRemove this unused import 'android.support.v7.widget.RecyclerView'.(ÊŠáó8Ó¦Ý³ð,
+}squid:UselessImportCheck "MRemove this unused import 'com.github.mikephil.charting.components.AxisBase'.(ìÿªãúÿÿÿÿ8ˆÆæ³ð,
+csquid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòþÿÿÿÿ8ÀÞè³ð,
+dsquid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ8¥®•ï,
+Fsquid:S1185G"(Remove this method to simply inherit it.(ßìê¯8æðìÀî,
+¤squid:S1186d"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½Ä³ïþÿÿÿÿ8ÈÕ³ð,
+vsquid:UselessImportCheck#"FRemove this unused import 'com.github.mikephil.charting.data.BarData'.(ñµø‡úÿÿÿÿ8ˆÆæ³ð,
+vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°î‰Èùÿÿÿÿ8¶•Ü³ð,
+Ÿsquid:S1186i"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ž¦›Í8ÈÕ³ð,
+msquid:UselessImportCheck"BRemove this unused import 'android.arch.lifecycle.ReportFragment'.(•ß„„8èÿóäð,
+[squid:UselessImportCheck*"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8–üì³ð,
+wsquid:UselessImportCheck."GRemove this unused import 'in.texasreview.gre.Models.ReviewTableModel'.(ˆ„Ÿúÿÿÿÿ8–üì³ð,

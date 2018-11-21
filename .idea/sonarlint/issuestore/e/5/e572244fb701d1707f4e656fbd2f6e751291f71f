@@ -1,0 +1,9 @@
+
+vsquid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä˜®Óøÿÿÿÿ8¬õ‰¤ê,
+qsquid:S3776š"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(®¢÷Â8¬õ‰¤ê,
+¤squid:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿİç›üÿÿÿÿ8Ã¦é£ê,
+Gsquid:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬õ‰¤ê,
+¤squid:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ8Ã¦é£ê,
+qsquid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¹¾Ò8¬õ‰¤ê,
+osquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(‹ğáıÿÿÿÿ8¸Û‡Íê,
+Esquid:S1168â"&Return an empty array instead of null.(¥¹ï8¬õ‰¤ê,

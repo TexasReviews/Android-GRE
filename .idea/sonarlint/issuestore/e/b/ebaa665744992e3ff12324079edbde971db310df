@@ -1,0 +1,16 @@
+
+jsquid:CommentedOutCodeLineÕ"<This block of commented-out lines of code should be removed.(¥Ì¹·8ð²º†ñ,
+asquid:S00107é"<Method has 8 parameters, which is greater than 7 authorized.(ßŽþ€ùÿÿÿÿ8ëËî…ñ,
+jsquid:CommentedOutCodeLineË"<This block of commented-out lines of code should be removed.(ˆ–Ö¼8¼ù¹†ñ,
+Rsquid:S1481Ä".Remove this unused "plainText" local variable.(ÂØ–¦ùÿÿÿÿ8þÈÛ‹ñ,
+osquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(©±Ç®úÿÿÿÿ8¢©¹†ñ,
+jsquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(ÝŠÁ¾8¤óÌ…ñ,
+jsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(ŸÒŒ„8íû¸†ñ,
+jsquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(ã‘õñ8¡½ê‹ñ,
+Gsquid:S1148£"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¹‡…ñ,
+ssquid:UselessImportCheck"CRemove this unused import 'android.support.annotation.RequiresApi'.(ÄÂòøÿÿÿÿ8ò–¸‹ñ,
+vsquid:S3776á"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(± ½êúÿÿÿÿ8ëËî…ñ,
+^squid:UselessImportCheck"3Remove this unused import 'android.util.TimeUtils'.(èÛ…û8ãŠ–âð,
+jsquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(ìÙ—Ç8§œ‚‹ñ,
+osquid:CommentedOutCodeLineµ"<This block of commented-out lines of code should be removed.(”ŠÙôúÿÿÿÿ8íû¸†ñ,
+jsquid:CommentedOutCodeLineÞ"<This block of commented-out lines of code should be removed.(ÐÝö³8ïšÃˆñ,

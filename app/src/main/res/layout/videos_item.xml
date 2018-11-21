@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rlVideosItem">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/tvNumOfSubVideos"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorRed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVideoName"
+            android:layout_below="@+id/tvNumOfSubVideos"
+            android:layout_marginStart="10dp"
+            android:singleLine="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="video name"/>
+
+
+        <TextView
+            android:id="@+id/tvNumOfQues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:padding="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:background="@color/colorPrimary"
+            android:text="30 questions"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
